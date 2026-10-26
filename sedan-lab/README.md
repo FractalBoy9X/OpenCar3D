@@ -29,10 +29,8 @@ Zapis używa osobnego klucza localStorage (`sedan-lab-notes-v1`). Czyszczenie da
 
 Odtworzenie HTML: `python3 build_offline.py`. Sprawdzenie modelu i kinematyki: `node check-model.cjs`.
 
-## Materiały
+## Użyte komponenty
 
-- [Bosch · gasoline port fuel injection](https://www.bosch-mobility.com/en/solutions/powertrain/gasoline/gasoline-port-fuel-injection/).
-- [NGK / Niterra · ignition coils](https://www.ngkntk.com/uk/products/ignition-coils/).
 - [Poly Haven · Studio Small 08](https://polyhaven.com/a/studio_small_08), CC0, HDR osadzony w pliku.
 - Three.js, RGBELoader i RoundedBoxGeometry r160.1, MIT; licencja dołączona do HTML.
 

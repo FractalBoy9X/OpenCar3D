@@ -19,7 +19,7 @@ Pełna licencja Three.js: [THREE-LICENSE.txt](sedan-lab/dist/vendor/THREE-LICENS
 - Pliki `*.source.js` zachowują oryginały z pakietu. W wersjach używanych w aplikacji zmieniono import/eksport ES Modules na osłonę IIFE korzystającą z globalnego `THREE`; pozwala to uruchamiać pojedynczy HTML z dysku. Bez zmiany algorytmów dodatków.
 - [Studio Small 08 — strona zasobu i autor](https://polyhaven.com/a/studio_small_08), [polityka licencyjna Poly Haven](https://polyhaven.com/license), [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Sam HDR pozostaje CC0; nie jest przedstawiany jako autorski utwór projektu na MIT.
 - Model auta, geometria części, katalog, animacje i interfejs powstają w kodzie projektu. Nie dołączono modelu konkretnego producenta ani jego znaków towarowych.
-- Nie dołączono zewnętrznych fontów, fotografii referencyjnych ani treści stron Bosch/NGK. Odnośniki do ich materiałów służą dalszej nauce. Interfejs korzysta z fontów dostępnych w systemie.
+- Nie dołączono zewnętrznych fontów ani fotografii referencyjnych. Interfejs korzysta z fontów dostępnych w systemie.
 
 ## Weryfikacja pochodzenia
 
