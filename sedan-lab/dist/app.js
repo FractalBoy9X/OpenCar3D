@@ -29,7 +29,7 @@ renderList();renderDetail();progress();
 try{
 if(!window.THREE)throw Error('Three.js unavailable');const T=THREE;
 renderer=new T.WebGLRenderer({canvas:$('#canvas'),antialias:true,powerPreference:'high-performance'});renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));renderer.outputColorSpace=T.SRGBColorSpace;renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFSoftShadowMap;
-scene=new T.Scene();root=new T.Group();scene.add(root);camera=new T.PerspectiveCamera(38,1,.012,80);studio=window.installMeganeStudio({THREE:T,renderer,scene});model=window.buildSedanLab({THREE:T,root,parts,seed});
+scene=new T.Scene();root=new T.Group();scene.add(root);camera=new T.PerspectiveCamera(38,1,.012,80);studio=window.installSedanStudio({THREE:T,renderer,scene});model=window.buildSedanLab({THREE:T,root,parts,seed});
 }catch(error){console.error(error);$('#loading').innerHTML='<strong>Nie udało się otworzyć modelu 3D.</strong><p>Sprawdź obsługę WebGL i akcelerację sprzętową.<br>Opisy i notatki pozostają dostępne.</p>';return;}
 const T=THREE,stage=$('#stage'),canvas=renderer.domElement,reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const orbit={yaw:1.02,pitch:1.24,distance:6.8,target:new T.Vector3(0,.70,0)};
